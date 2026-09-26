@@ -1,10 +1,12 @@
-# IconPack packs
+# IconPack
 
-Icon packs for IconPack, a Windows app that swaps your app, file-type and folder icons the way an Android icon pack does. The app downloads everything in this repo from its GitHub Pages site.
+Android-style icon packs for Windows. Pick a pack, click Apply, and your app, file-type and folder icons change. Restore puts the originals back.
 
-**Status:** placeholder packs only (Mono, Outline, Paper). Their icons are two-letter labels, not finished designs.
+**Status:** early. The installer will be on the Releases page from v0.1.0. The packs here are placeholders (two-letter labels), not finished designs. Store apps such as Settings and Photos keep their own icons.
 
-## What's here
+## What's in this repo
+
+The app downloads its packs from this repo's GitHub Pages site:
 
 - `catalog.json`: the list of packs the app shows, with each zip's SHA-256.
 - `catalog.json.sig`: an ed25519 signature of `catalog.json`. The app ships with the public key and ignores a catalog that doesn't match it, so nobody else can slip a pack in.
@@ -12,3 +14,5 @@ Icon packs for IconPack, a Windows app that swaps your app, file-type and folder
 - `previews/`: the gallery images.
 
 These files are generated and signed by IconPack's publish tool. Editing one by hand breaks the signature or a checksum, and the app will refuse it.
+
+Copyright © 2026 Anudeepg2237. All rights reserved. The app's source code is not public.
