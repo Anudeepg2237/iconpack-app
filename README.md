@@ -2,7 +2,7 @@
 
 Android-style icon packs for Windows. Pick a pack, click Apply, and your app, file-type and folder icons change. Restore puts the originals back.
 
-**Status:** early. The installer will be on the Releases page from v0.1.0. The packs here are placeholders (two-letter labels), not finished designs. Store apps such as Settings and Photos keep their own icons.
+**Status:** early preview. Download `IconPack-Setup-0.1.0.exe` from the [Releases page](https://github.com/Anudeepg2237/iconpack-app/releases/latest) (Windows 10/11, 64-bit, no admin rights needed). The packs here are placeholders (two-letter labels), not finished designs. Store apps such as Settings and Photos keep their own icons. The installer isn't code-signed yet, so SmartScreen asks you to confirm before it runs.
 
 ## What's in this repo
 
