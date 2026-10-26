@@ -1,31 +1,37 @@
 {
   "packs": [
     {
-      "id": "mono",
-      "name": "Mono",
-      "version": 2,
-      "url": "packs/mono-2.zip",
-      "sha256": "0f2dc8c0487f86fb25992989f519b00f138b389ab2179c88d3bdb021166be7dd",
-      "preview": "previews/mono-2.png",
-      "icons": 50
+      "id": "graphite",
+      "name": "Graphite",
+      "version": 1,
+      "url": "packs/graphite-1.zip",
+      "sha256": "3ab8bf57464400b3332efa38a783ce79b0264d5b9319798672f9b1e900752ec3",
+      "preview": "previews/graphite-1.png",
+      "icons": 0,
+      "style": true,
+      "format": 2
     },
     {
-      "id": "outline",
-      "name": "Outline",
-      "version": 2,
-      "url": "packs/outline-2.zip",
-      "sha256": "b08cc27721b0f1b28e516c8279d5970419447fc042e8de9a7fd1fade375f7eba",
-      "preview": "previews/outline-2.png",
-      "icons": 50
+      "id": "line",
+      "name": "Line",
+      "version": 1,
+      "url": "packs/line-1.zip",
+      "sha256": "bf1e0c525fa79efcf0701f942e9775cd66d4a7332845d823a99ee1347877917e",
+      "preview": "previews/line-1.png",
+      "icons": 0,
+      "style": true,
+      "format": 2
     },
     {
       "id": "paper",
       "name": "Paper",
-      "version": 2,
-      "url": "packs/paper-2.zip",
-      "sha256": "103f2f2c63b1e96c5137d2f8f43cbac1b8caf190768c3c5f7ae19705757910f1",
-      "preview": "previews/paper-2.png",
-      "icons": 50
+      "version": 3,
+      "url": "packs/paper-3.zip",
+      "sha256": "8c2baaed7741272b491393e609546d42fcab40252eef1cf3270d58fde786dbf7",
+      "preview": "previews/paper-3.png",
+      "icons": 0,
+      "style": true,
+      "format": 2
     }
   ]
 }
