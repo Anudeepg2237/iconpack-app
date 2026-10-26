@@ -2,7 +2,7 @@
 
 Android-style icon packs for Windows. Pick a pack, click Apply, and your app, file-type and folder icons change. Restore puts the originals back.
 
-**Status:** early preview. The packs here are placeholders (two-letter labels), not finished designs. Store apps such as Settings and Photos keep their own icons.
+**Status:** early preview. Download `IconPack-Setup-0.2.0.exe` from the [0.2.0 release](https://github.com/Anudeepg2237/iconpack-app/releases/tag/v0.2.0) (Windows 10/11, 64-bit, no admin rights needed). The three packs, Line, Graphite and Paper, redraw the icons already on your PC in one style. Store apps such as Calculator and Spotify keep their own icons. The installer isn't code-signed yet, so SmartScreen asks you to confirm before it runs.
 
 ## What's in this repo
 
@@ -10,7 +10,7 @@ The app downloads its packs from this repo's GitHub Pages site:
 
 - `catalog.json`: the list of packs the app shows, with each zip's SHA-256.
 - `catalog.json.sig`: an ed25519 signature of `catalog.json`. The app ships with the public key and ignores a catalog that doesn't match it, so nobody else can slip a pack in.
-- `packs/<id>-<version>.zip`: one `.ico` per app, file type or folder, plus `pack.json`.
+- `packs/<id>-<version>.zip`: the pack's `pack.json` (its style recipe) and its preview.
 - `previews/`: the gallery images.
 
 These files are generated and signed by IconPack's publish tool. Editing one by hand breaks the signature or a checksum, and the app will refuse it.
